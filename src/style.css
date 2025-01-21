@@ -1,3 +1,64 @@
 body {
-  background: rgb(215, 124, 139);
+  background: rgb(10, 10, 24);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 120px auto;
+  max-width: 800px;
+  background-color: rgb(248, 178, 231);
+}
+h1 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+  color: rgb(32, 22, 22);
+  text-align: center;
+}
+header {
+  margin-bottom: 40px;
+}
+.button {
+  margin-left: 5px;
+  margin-bottom: 30px;
+  background: rgb(75, 75, 213);
+  color: rgb(117, 183, 241);
+  border: none;
+  border-radius: 50px;
+  padding: 15px 25px;
+}
+main {
+  margin-bottom: 60px;
+}
+.form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 77, 253, 0.7);
+  margin-bottom: 90px;
+}
+.request {
+  padding: 15px;
+  border: 1px solid rgba(65, 77, 253, 0.7);
+  width: 80%;
+  font-size: 15px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: rgb(59, 39, 233);
+}
+.recipe {
+  font-size: 16px;
+  background-color: white;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid rgba(65, 77, 253, 0.7);
+  box-shadow: 0px 20px 40px rgba(209, 211, 239, 0.7);
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+a {
+  color: rgb(59, 39, 233);
 }
